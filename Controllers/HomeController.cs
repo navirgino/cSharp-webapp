@@ -26,5 +26,11 @@ namespace cSharp_webapp.Controllers
 
             return View();
         }
+
+        public ActionResult Shop()
+       {
+            ViewBag.Message = "Shopping items here: ";
+            return View();
+       }
     }
 }
