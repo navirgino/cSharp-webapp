@@ -14,16 +14,19 @@
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Rent the Outdoors</h2>
+  
+        
+        <h2>@Html.ActionLink("Rent the Outdoors", "RentTheOutDoors", "Projects")</h2>
+        
         <p>
             Innovations in science and technology are the engines of the 21st-century economy; if you care about the wealth and health of your nation tomorrow, then you'd better rethink how you allocate taxes to fund science. The federal budget needs to recognize this.
 
 
         </p>
-        <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" asp-controller="ProjectsController" asp-action="RentTheOutdoors")>Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Tamaraland</h2>
+        <h2>@Html.ActionLink("Tamaraland", "Tamaraland", "Projects")</h2>
         <p>
             Innovations in science and technology are the engines of the 21st-century economy; if you care about the wealth and health of your nation tomorrow, then you'd better rethink how you allocate taxes to fund science. The federal budget needs to recognize this.
 
@@ -31,7 +34,8 @@
         <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Party Event Planner</h2>
+
+        <h2>@Html.ActionLink("Party Event Planner", "Pep", "Projects")</h2>
         <p>
             Innovations in science and technology are the engines of the 21st-century economy; if you care about the wealth and health of your nation tomorrow, then you'd better rethink how you allocate taxes to fund science. The federal budget needs to recognize this.
 

@@ -169,6 +169,8 @@
     <Content Include="Views\Antiques\Random.cshtml" />
     <Content Include="Views\Home\Shop.cshtml" />
     <Content Include="Views\Projects\RentTheOutdoors.cshtml" />
+    <Content Include="Views\Projects\Pep.cshtml" />
+    <Content Include="Views\Projects\Tamaraland.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
