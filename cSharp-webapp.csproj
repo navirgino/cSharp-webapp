@@ -123,6 +123,7 @@
     <Compile Include="Controllers\AntiquesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Controllers\TCGPlayerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -171,6 +172,7 @@
     <Content Include="Views\Projects\RentTheOutdoors.cshtml" />
     <Content Include="Views\Projects\Pep.cshtml" />
     <Content Include="Views\Projects\Tamaraland.cshtml" />
+    <Content Include="Views\TCGPlayer\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
