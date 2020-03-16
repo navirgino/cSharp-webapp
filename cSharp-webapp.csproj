@@ -130,7 +130,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AntiquesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NasaController.cs" />
     <Compile Include="Controllers\ProjectsController.cs" />
@@ -179,7 +178,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Antiques\Random.cshtml" />
     <Content Include="Views\Home\Shop.cshtml" />
     <Content Include="Views\Projects\RentTheOutdoors.cshtml" />
     <Content Include="Views\Projects\Pep.cshtml" />
